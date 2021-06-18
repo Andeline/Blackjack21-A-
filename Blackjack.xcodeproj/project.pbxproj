@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575B85C02664C86B00883B3A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B85BF2664C86B00883B3A /* Card.swift */; };
 		57B597B62662588300493553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B597B52662588300493553 /* AppDelegate.swift */; };
 		57B597B82662588300493553 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B597B72662588300493553 /* SceneDelegate.swift */; };
 		57B597BA2662588300493553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B597B92662588300493553 /* ViewController.swift */; };
 		57B597BD2662588300493553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B597BB2662588300493553 /* Main.storyboard */; };
 		57B597BF2662588600493553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B597BE2662588600493553 /* Assets.xcassets */; };
 		57B597C22662588600493553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B597C02662588600493553 /* LaunchScreen.storyboard */; };
+		57B597CA26625A4C00493553 /* TaipeiSansTCBeta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B597C926625A4C00493553 /* TaipeiSansTCBeta-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		575B85BF2664C86B00883B3A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		57B597B22662588300493553 /* Blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B597B52662588300493553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57B597B72662588300493553 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		57B597BE2662588600493553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57B597C12662588600493553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57B597C32662588600493553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B597C926625A4C00493553 /* TaipeiSansTCBeta-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TaipeiSansTCBeta-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		57B597B42662588300493553 /* Blackjack */ = {
 			isa = PBXGroup;
 			children = (
+				57B597C926625A4C00493553 /* TaipeiSansTCBeta-Regular.ttf */,
 				57B597B52662588300493553 /* AppDelegate.swift */,
 				57B597B72662588300493553 /* SceneDelegate.swift */,
 				57B597B92662588300493553 /* ViewController.swift */,
+				575B85BF2664C86B00883B3A /* Card.swift */,
 				57B597BB2662588300493553 /* Main.storyboard */,
 				57B597BE2662588600493553 /* Assets.xcassets */,
 				57B597C02662588600493553 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 				57B597C22662588600493553 /* LaunchScreen.storyboard in Resources */,
 				57B597BF2662588600493553 /* Assets.xcassets in Resources */,
 				57B597BD2662588300493553 /* Main.storyboard in Resources */,
+				57B597CA26625A4C00493553 /* TaipeiSansTCBeta-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 				57B597BA2662588300493553 /* ViewController.swift in Sources */,
 				57B597B62662588300493553 /* AppDelegate.swift in Sources */,
 				57B597B82662588300493553 /* SceneDelegate.swift in Sources */,
+				575B85C02664C86B00883B3A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
